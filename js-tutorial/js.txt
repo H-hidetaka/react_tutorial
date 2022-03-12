@@ -1,0 +1,46 @@
+変数は強調データが含まれる
+例題内の、x,y,そして、zは変数で、varキーワードが宣言される。
+
+var x = 5;
+var y = 6;
+var z = x + y;
+
+例台内のx,y,zは宣言されてない変数。
+
+ x = 5;
+ y = 6;
+ z = x + y;
+
+var　キーワードは使われる、全てのJavaスクリプト内で、
+1995年から2015年までの間。
+letとconstキーワードは、追加された、2015年に
+もし、コードを動かしたいなら、
+古いブラウザで、varを使うべき
+
+一般的なルールが、常に変数を宣言するconst
+変数の値を変えることができる、let
+この例では、price1,price2,totalが変数
+
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+document.getElementById("demo").innerHTML =
+"The total is: " + total;
+
+let x = 5;
+let y = 6;
+
+let z = x + y;
+
+javascriptの変数は全て一意な名前で識別する必要があります。
+
+イチイの名前は識別子と呼ばれる
+
+識別子は短くできる（x and yのような）
+いくつかの記述名は
+名前には文字、_、そして、$サイン
+名前は文字で始めなけれならない
